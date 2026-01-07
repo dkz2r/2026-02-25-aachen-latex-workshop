@@ -4,19 +4,19 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "RWTH Aachen University"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Room 302, Kackertstraße 10, 52072 Aachen"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Seminarraum 004, Kopernikusstraße 6, 52074 Aachen"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "de"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
-latitude: "50.791266"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "6.062422"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Monday May 05 thru Tuesday May 06, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "Monday 12:00 - 17:00, Tuesday 9:00 - 17:00"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2025-05-05      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2025-05-05        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Jonathan Hartman", "Lennard Maßmann"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Lukas Bossert"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["hartman@itc.rwth-aachen.de", "lennard.massmann@uni-due.de"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://pad.otc.coscine.dev/2025-05-05-latex-workshop
+latitude: "50.780786"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "6.065225"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+humandate: "Wednesday February 25 thru Thursday February 26, 2026"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "Wednesday 9:00 - 17:00, Thursday 9:00 - 17:00"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+startdate: 2026-02-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2026-02-26        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Lukas Bossert", "Jonathan Hartman"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: []     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["Bossert@itc.rwth-aachen.de", "hartman@itc.rwth-aachen.de"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes: https://pad.tools.coscine.dev/2026-02-25-latex-workshop
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -78,17 +78,9 @@ displayed if the 'eventbrite' field in the header is not set.
 </script>
 {% endif %}
 
-<strong>Some adblockers block the registration window. If you do not see the registration box below, please check your adblocker settings.</strong>
-<p>Alternatively, you can register for the workshop <strong><a href="https://cryptpad.fr/form/#/2/form/view/UDDVL2I+l1rKyFnSZ2o30xF33+Sdfu4HWFexSh6UObY/embed/">HERE</a></strong></p>
-
-<iframe
-  src="https://cryptpad.fr/form/#/2/form/view/UDDVL2I+l1rKyFnSZ2o30xF33+Sdfu4HWFexSh6UObY/embed/"
-  frameborder="0"
-  width="100%"
-  height="800px"
-  scrolling="auto">
-</iframe>
-
+<div class="alert alert-success">
+<h3 align="center">You can register for the workshop <strong><a href="">HERE</a></strong></h3>
+</div>
 
 <h2 id="general">General Information</h2>
 
